@@ -19,10 +19,10 @@ def badge_maker(name)
 end
 
 def printer(attendees)
-  print batch_badge_creator(attendees)
+  puts batch_badge_creator(attendees)
 
    calling = room_assignments.each do |name|
   puts assign_rooms.shift(name)
    end
-   return calling 
+   return calling
 end
