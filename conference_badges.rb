@@ -25,3 +25,4 @@ def printer(attendees)
      puts name 
    end
 end
+end 
