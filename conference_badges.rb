@@ -19,11 +19,9 @@ def badge_maker(name)
 end
 
 def printer(attendees)
-  calling = batch_badge_creator(attendees).each do |name|
-    array.shift(name)
-
-  # calling = assign_rooms(attendees).each do |name|
-  #    room_assignments.shift(name)
+  puts batch_badge_creator(attendees)
+  calling = assign_rooms(attendees).each do |name|
+     room_assignments.shift(name)
    end
    return calling
 end
