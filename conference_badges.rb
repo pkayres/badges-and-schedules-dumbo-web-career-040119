@@ -19,7 +19,7 @@ def badge_maker(name)
 end
 
 def printer(attendees)
-  puts batch_badge_creator(attendees)
+  # puts batch_badge_creator(attendees)
 
    calling = room_assignments.each do |name|
   puts assign_rooms.shift(name).join("")
